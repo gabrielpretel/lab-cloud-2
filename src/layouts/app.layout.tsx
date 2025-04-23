@@ -18,7 +18,7 @@ const AppLayoutContentStyle = css`
       rgba(0, 0, 0, 0.8),
       #0a0a0c
     ),
-    url(bgWallpaper);
+    url(${bgWallpaper});
   background-size: cover;
   background-position: center;
 `;
