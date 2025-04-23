@@ -5,7 +5,7 @@ import { PageTitle } from "@/core/components";
 export const ChampionsScene: React.FC = () => {
   return (
     <>
-      <PageTitle>Champions</PageTitle>
+      <PageTitle>All champions</PageTitle>
       <ChampionsGallery />
     </>
   );
