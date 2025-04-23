@@ -1,6 +1,11 @@
 import React, { PropsWithChildren } from "react";
 import { css } from "@emotion/react";
-import { CartSidebarComponent, FooterComponent, HeaderComponent } from "./components";
+import {
+  CartSidebarComponent,
+  FooterComponent,
+  HeaderComponent,
+} from "./components";
+import bgWallpaper from "@/common/img/latestBg_Wallpaper.png";
 
 const AppLayoutContentStyle = css`
   display: flex;
@@ -13,7 +18,7 @@ const AppLayoutContentStyle = css`
       rgba(0, 0, 0, 0.8),
       #0a0a0c
     ),
-    url("src/common/img/latestBg_Wallpaper.png");
+    url(bgWallpaper);
   background-size: cover;
   background-position: center;
 `;
